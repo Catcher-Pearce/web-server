@@ -32,6 +32,8 @@ public class MiniServer {
             HttpParser parser =
                     new HttpParser(clientSocket.getInputStream());
 
+            System.out.println(parser.parse());
+
             // parse request
             // build response
             // send response
